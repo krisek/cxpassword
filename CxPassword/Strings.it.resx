@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="cancel" xml:space="preserve">
-    <value>Annula</value>
+    <value>Annulla</value>
   </data>
   <data name="changepass" xml:space="preserve">
     <value>Altre credenziali</value>
@@ -139,7 +139,7 @@
     <value>OK</value>
   </data>
   <data name="oldpass" xml:space="preserve">
-    <value>Veccia password:</value>
+    <value>Vecchia password:</value>
   </data>
   <data name="success" xml:space="preserve">
     <value>La tua password è stata aggiornata con successo! Si prega di logout e login di nuovo.</value>
