@@ -52,10 +52,12 @@ namespace CxPassword
             ci = Thread.CurrentThread.CurrentCulture;
             rm = new ResourceManager("CxPassword.Strings", Assembly.GetExecutingAssembly());
             btnCancel.Text = rm.GetString("cancel", ci);
-            btnChangePass.Text = rm.GetString("changepass", ci);
+            btnChangePass.Text = rm.GetString("ok", ci);
             label1.Text = rm.GetString("oldpass", ci);
             label2.Text = rm.GetString("newpass", ci);
             label3.Text = rm.GetString("confpass", ci);
+            this.Text = rm.GetString("changepass", ci);
+
 
         }
 

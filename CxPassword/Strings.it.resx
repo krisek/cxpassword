@@ -135,6 +135,9 @@
   <data name="nomatch" xml:space="preserve">
     <value>Le password non corrispondono, per favore prova di nuovo!</value>
   </data>
+  <data name="ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
   <data name="oldpass" xml:space="preserve">
     <value>Veccia password:</value>
   </data>
