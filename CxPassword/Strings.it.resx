@@ -121,7 +121,7 @@
     <value>Annulla</value>
   </data>
   <data name="changepass" xml:space="preserve">
-    <value>Altre credenziali</value>
+    <value>Cambio password</value>
   </data>
   <data name="confpass" xml:space="preserve">
     <value>Conferma password:</value>
@@ -142,6 +142,6 @@
     <value>Vecchia password:</value>
   </data>
   <data name="success" xml:space="preserve">
-    <value>La tua password è stata aggiornata con successo! Si prega di logout e login di nuovo.</value>
+    <value>La tua password è stata aggiornata con successo! Si prega di effettuare logout e login di nuovo.</value>
   </data>
 </root>
