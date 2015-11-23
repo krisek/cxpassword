@@ -33,6 +33,7 @@ using System.Resources;
 using System.Globalization;
 using System.Reflection;
 using System.Threading;
+using System.Text.RegularExpressions;
 
 namespace CxPassword
 {
@@ -96,7 +97,9 @@ namespace CxPassword
             }
             catch (Exception ex)
             {
-                MessageBox.Show(rm.GetString("fail", ci) + ex.Message);
+                Regex cleanmessage = new Regex("\\([^\\(\\)]+\\)$");
+                String Message = cleanmessage.Replace(ex.Message, "");
+                MessageBox.Show(rm.GetString("fail", ci) + Message);
                 //Console.WriteLine(ex);
             }
         }
